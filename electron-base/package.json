@@ -1,0 +1,14 @@
+{
+  "name": "my-electron-app",
+  "version": "0.1.0",
+  "author": "Matheus Cassiano",
+  "description": "My Electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^11.2.0"
+  }
+}
