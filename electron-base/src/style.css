@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: #272a38;
+}
+
+img {
+    width: min(300px, 90vw);
+    animation: rotate 2s ease-in-out forwards infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotateZ(-360deg);
+    }
+}
